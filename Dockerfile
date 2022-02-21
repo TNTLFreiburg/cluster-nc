@@ -1,4 +1,4 @@
-FROM nextcloud:21.0.8
+FROM nextcloud:21.0.9
 
 RUN apt-get update \
   && apt-get install -y procps smbclient libsmbclient-dev \
